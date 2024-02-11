@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/accion.css">
-    <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="icon" href="Img/DigitalDungeon.ico" type="image/x-icon">
-    <title>Aventura</title>
+    <title>Simulación</title>
 
 </head>
 
@@ -23,15 +23,15 @@
             <ul class="navbar-nav">
                 <li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="aventuraDropdown" role="button"
+                    <a class="nav-link dropdown-toggle" href="#" id="simulacionDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Categorias
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="aventuraDropdown">
+                    <div class="dropdown-menu" aria-labelledby="simulacionDropdown">
                         <a class="dropdown-item" href="accion.html">Acción</a>
                         <a class="dropdown-item" href="aventura.html">Aventura</a>
-                        <a class="dropdown-item" href="retro.html">Retro</a>
-                        <a class="dropdown-item" href="plataformas.html">Plataformas</a>
+                        <a class="dropdown-item" href="registro.html">Retro</a>
+                        <a class="dropdown-item" href="playstation.html">Plataformas</a>
                         <a class="dropdown-item" href="terror.html">Terror</a>
                         <a class="dropdown-item" href="estrategia.html">Estrategia</a>
                         <a class="dropdown-item" href="simulacion.html">Simulación</a>
@@ -47,11 +47,11 @@
                     </form>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle" href="#" id="cuentaDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Cuenta
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu" aria-labelledby="cuentaDropdown">
                         <a class="dropdown-item" href="login.html">Iniciar Sesion</a>
                         <a class="dropdown-item" href="registro.html">Registrarse</a>
                         <a class="dropdown-item" href="comentario.html">Comentario</a>
@@ -61,89 +61,85 @@
         </div>
     </nav>
 
-
     <div class="container mt-3">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item  active" aria-current="page"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item  active"aria-current="page"><a href="index.html">Home</a></li>
                 <li class="breadcrumb-item"><a href="#">Categorias</a></li>
-                <li class="breadcrumb-item"><a href="#">Aventura</a></li>
+                <li class="breadcrumb-item"><a href="#">Simulación</a></li>
             </ol>
         </nav>
         <div class="container">
-            <h1 class="title">Juegos</h1>
+            <h1 class="title">Simulacion</h1>
             <div class="row">
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="game-card">
-                        <img src="Img/Carátula oficial de Minecraft PC en 3DJuegos.jpg" alt="Juego 1">
+                        <img src="https://sm.ign.com/ign_latam/cover/c/cities-sky/cities-skylines-ii_zba9.jpg" alt="Juego 1">
                         <div class="card-body">
-                            <h4 class="card-title">Minecraft</h4>
-                            <p class="card-text">Mundo abierto</p>
+                            <h4 class="card-title">Cities: Skylines II</h4>
+                            <p class="card-text">Construye una ciudad y haz que prospere con el constructor de ciudades más realista.</p>
                             <a href="carrito.html" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                     <div class="game-card">
-                        <img src="Img/Portal 2 (PC_Mac DVD) [Importación inglesa].jpg" alt="Juego 1">
+                        <img src="https://img.hype.games/cdn/46770c84-f794-4912-a3c7-ab4accc21c10COVER%20Forza%20Horizon%205%20Standard%20Edition.png" alt="Juego 1">
                         <div class="card-body">
-                            <h4 class="card-title">Portal 2</h4>
-                            <p class="card-text">El verdadero reto</p>
-                            <a href="carrito.html" class="btn btn-primary">Comprar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <div class="game-card">
-                        <img src="Img/Crash Twinsanity.jpg" alt="Juego 1">
-                        <div class="card-body">
-                            <h4 class="card-title">Crash Twinsanity</h4>
-                            <p class="card-text">Juego en 2d</p>
-                            <a href="carrito.html" class="btn btn-primary">Comprar</a>
-                        </div>
-                    </div>
-                    <div class="game-card">
-                        <img src="Img/descarga (17).jpg" alt="Juego 1">
-                        <div class="card-body">
-                            <h4 class="card-title">Zelda</h4>
-                            <p class="card-text">La aventura comienza</p>
+                            <h4 class="card-title">Forza Horizon 5</h4>
+                            <p class="card-text">Explora los vibrantes paisajes del mundo abierto de México</p>
                             <a href="carrito.html" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="game-card">
-                        <img src="Img/reddead.jpg" alt="Juego 1">
+                        <img src="https://m.media-amazon.com/images/I/71s3WY8EB4L._AC_UF1000,1000_QL80_.jpg" alt="Juego 1">
                         <div class="card-body">
-                            <h4 class="card-title">Red Dead Redemption 2</h4>
-                            <p class="card-text">Accion en el Viejo Oeste</p>
+                            <h4 class="card-title">Fishing Planet</h4>
+                            <p class="card-text">Fishing Planet® es un simulador de pesca multijugador</p>
                             <a href="carrito.html" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                     <div class="game-card">
-                        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202011/0919/cDHU28ds7cCvKAnVQo719gs0.png"
-                            alt="Juego 1">
+                        <img src="https://cdn-products.eneba.com/resized-products/ZnCbfaV_350x200_3x-0.jpg" alt="Juego 1">
                         <div class="card-body">
-                            <h4 class="card-title">Hogwarts Legacy</h4>
-                            <p class="card-text">RPG inmersivo de acción en mundo abierto.</p>
+                            <h4 class="card-title">Arma 3</h4>
+                            <p class="card-text">Combate realista en un enorme mundo abierto militar.</p>
                             <a href="carrito.html" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="game-card">
-                        <img src="Img/elder.jpg" alt="Juego 1">
+                        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202305/1816/8e0bcf8f41de57812a8f462542b8147c8455972b8a8b298e.jpg" alt="Juego 1">
                         <div class="card-body">
-                            <h4 class="card-title">The Elder Scrolls® Online</h4>
-                            <p class="card-text">RPG multijugador online y vive una aventura sin límites</p>
+                            <h4 class="card-title">Hell Let Loose</h4>
+                            <p class="card-text">Shooter bestial en primera persona ambientado en la II Guerra Mundial</p>
                             <a href="carrito.html" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                     <div class="game-card">
-                        <img src="https://static.wikia.nocookie.net/thelastofus/images/4/45/Portada_Parte_I_R_limpia.png/revision/latest?cb=20230206140350&path-prefix=es"
-                            alt="Juego 1">
+                        <img src="Img/Counter Strike Global Offensive (CSGO).jpg" alt="Juego 1">
                         <div class="card-body">
-                            <h4 class="card-title">The Last of Us™ Parte I</h4>
-                            <p class="card-text">Disfruta de la emotiva historia y los inolvidables personajes de The
-                                Last of Us</p>
+                            <h4 class="card-title">CSGO</h4>
+                            <p class="card-text">Terroristas vs Swat</p>
+                            <a href="carrito.html" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="game-card">
+                        <img src="Img/descarga (16).jpg" alt="Juego 2">
+                        <div class="card-body">
+                            <h4 class="card-title">Dante´s Inferno</h4>
+                            <p class="card-text">Batallas merievales</p>
+                            <a href="carrito.html" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                    <div class="game-card">
+                        <img src="Img/God of War, diez años de Dioses y venganzas.jpg" alt="Juego 1">
+                        <div class="card-body">
+                            <h4 class="card-title">God of War</h4>
+                            <p class="card-text">Destructor de dioses</p>
                             <a href="carrito.html" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
@@ -151,41 +147,40 @@
                 <!-- Agrega más juegos aquí -->
             </div>
         </div>
-        <br>
-        <footer class="bg-primary text-white py-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h5 class="mb-4">Enlaces rápidos</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-white">Inicio</a></li>
-                            <li><a href="#" class="text-white">Juegos</a></li>
-                            <li><a href="comentario.html" class="text-white">Contacto</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h5 class="mb-4">Redes Sociales</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="#" class="text-white"><i class="fab fa-facebook-f"></i> Facebook</a></li>
-                            <li><a href="#" class="text-white"><i class="fab fa-twitter"></i> Twitter</a></li>
-                            <li><a href="#" class="text-white"><i class="fab fa-instagram"></i> Instagram</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h5 class="mb-4">Contacto</h5>
-                        <p class="mb-1"><i class="fas fa-envelope"></i> Email: info@juegosecommerce.com</p>
-                        <p class="mb-1"><i class="fas fa-phone"></i> Teléfono: +1234567890</p>
-                    </div>
+    <footer class="bg-primary text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="mb-4">Enlaces rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Inicio</a></li>
+                        <li><a href="#" class="text-white">Juegos</a></li>
+                        <li><a href="comentario.html" class="text-white">Contacto</a></li>
+                    </ul>
                 </div>
-                <hr class="my-4 bg-light">
-                <p class="mb-0 text-center text-white">© 2024 Juegos E-commerce. Todos los derechos reservados.</p>
+                <div class="col-md-4">
+                    <h5 class="mb-4">Redes Sociales</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="#" class="text-white"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#" class="text-white"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="mb-4">Contacto</h5>
+                    <p class="mb-1"><i class="fas fa-envelope"></i> Email: info@juegosecommerce.com</p>
+                    <p class="mb-1"><i class="fas fa-phone"></i> Teléfono: +1234567890</p>
+                </div>
             </div>
-        </footer>
-        <!-- Bootstrap JS -->
-        <!-- Include Bootstrap JS libraries -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            <hr class="my-4 bg-light">
+            <p class="mb-0 text-center text-white">© 2024 Juegos E-commerce. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+      <!-- Include Bootstrap JS libraries -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
