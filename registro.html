@@ -61,40 +61,30 @@
     </div>
   </nav>
 
-  <form class="form">
-    <p class="title">Registro </p>
-    <div class="flex">
-      <label>
-        <input required="" placeholder="" type="text" class="input">
-        <span>Nombres</span>
-      </label>
-
-      <label>
-        <input required="" placeholder="" type="text" class="input">
-        <span>Apellido Paterno</span>
-      </label>
-      <label>
-        <input required="" placeholder="" type="text" class="input">
-        <span>Apellido Materno</span>
-      </label>
+  <div class="container mt-5">
+    <div class="form-container">
+      <h2 class="mb-4">Registro de Usuario</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Correo Electrónico</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="password" name="password" required>
+        </div>
+        <div class="mb-3">
+          <label for="confirm-password" class="form-label">Confirmar Contraseña</label>
+          <input type="password" class="form-control" id="confirm-password" name="confirm-password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Registrarse</button>
+      </form>
     </div>
-
-    <label>
-      <input required="" placeholder="" type="email" class="input">
-      <span>Email</span>
-    </label>
-
-    <label>
-      <input required="" placeholder="" type="password" class="input">
-      <span>Contraseña</span>
-    </label>
-    <label>
-      <input required="" placeholder="" type="password" class="input">
-      <span>Confirmar Contraseña</span>
-    </label>
-    <button class="submit">Registrate</button>
-    <p class="signin">Ya tienes cuenta? <a href="login.html">Ingresa aqui</a> </p>
-  </form>
+  </div>
 
 </body>
 

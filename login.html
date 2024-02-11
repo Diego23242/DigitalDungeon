@@ -60,20 +60,22 @@
         </div>
     </nav>
 
-    <form class="form">
-        <p class="title">Iniciar Sesion </p>
-        <label>
-            <input required="" placeholder="" type="email" class="input">
-            <span>Email</span>
-        </label>
-
-        <label>
-            <input required="" placeholder="" type="password" class="input">
-            <span>Contraseña</span>
-        </label>
-        <button class="submit">Iniciar Sesion</button>
-        <p class="signin">No tienes cuenta? <a href="registro.html">Ingresa aqui</a> </p>
-    </form>
+    <div class="container mt-5">
+        <div class="form-container">
+          <h2 class="mb-4">Inicio de sesion</h2>
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Iniciar sesion</button>
+          </form>
+        </div>
+      </div>
 
     <!-- Include Bootstrap JS libraries -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="CSS/comentario.css">
     <title>Comentarios</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <a class="navbar-brand" href="index.html">GameShop</a>
@@ -50,26 +52,30 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="login.html">Iniciar Sesion</a>
                         <a class="dropdown-item" href="registro.html">Registrarse</a>
-                        
+
                     </div>
                 </li>
             </ul>
         </div>
     </nav>
-    <form class="form">
-        <p class="title">Comentarios</p>
-        <label>
-            <input required="" placeholder="" type="email" class="input">
-            <span>Email</span>
-        </label>
-        <label>
-            <textarea required="" placeholder="Escribe tu comentario aquí" class="input"></textarea>
-        </label>
-        <button class="submit">Enviar comentario</button>
-    </form>
+    <div class="container mt-5">
+        <div class="form-container">
+            <h2 class="mb-4">Comentarios</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Comentario</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
     <!-- Include Bootstrap JS libraries -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
+
 </html>
