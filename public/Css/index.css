@@ -1,0 +1,78 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    background-color: black; /* Color de fondo para el navbar */
+    margin-bottom: 20px;
+}
+
+.tittle-content {
+    color: #333;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+/* Pie de página */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Acerca de nosotros y enlaces sociales en el pie de página */
+.about-us, .social-links {
+    width: 48%;
+}
+
+/* Estilos para los enlaces sociales */
+.social-links a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #2200ff;
+}
+
+/* Estilo para el menú desplegable en tamaños pequeños */
+@media (max-width: 767px) {
+    .submenu {
+        display: none;
+        position: absolute;
+        background-color: #f8f9fa;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .nav-item:hover .submenu {
+        display: block;
+    }
+}
+
+/* Cambiar el color del texto en el navbar a blanco */
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+/* Cambiar el color del texto en el navbar cuando está en estado activo o hover */
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #007bff; /* Puedes ajustar el color según tus preferencias */
+}
+
+.navbar-dark .navbar-nav .nav-link.custom-dropdown {
+    color: blue !important;
+}
