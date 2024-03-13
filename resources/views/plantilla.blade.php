@@ -19,21 +19,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item active"><a class="nav-link" href="{{ route('inicio') }}">Inicio</a></li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Categorias
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="accion.html">Acción</a>
-                        <a class="dropdown-item" href="aventura.html">Aventura</a>
-                        <a class="dropdown-item" href="retro.html">Retro</a>
-                        <a class="dropdown-item" href="plataformas.html">Plataformas</a>
-                        <a class="dropdown-item" href="terror.html">Terror</a>
-                        <a class="dropdown-item" href="estrategia.html">Estrategia</a>
-                        <a class="dropdown-item" href="simulacion.html">Simulación</a>
-                        <a class="dropdown-item" href="carros.html">Carros</a>
+                        <a class="dropdown-item" href="{{ route('accion') }}">Acción</a>
+                        <a class="dropdown-item" href="{{ route('aventura') }}">Aventura</a>
+                        <a class="dropdown-item" href="{{ route('retro') }}">Retro</a>
+                        <a class="dropdown-item" href="{{ route('plataformas') }}">Plataformas</a>
+                        <a class="dropdown-item" href="{{ route('terror') }}">Terror</a>
+                        <a class="dropdown-item" href="{{ route('estrategia') }}">Estrategia</a>
+                        <a class="dropdown-item" href="{{ route('simulacion') }}">Simulación</a>
+                        <a class="dropdown-item" href="{{ route('carros') }}">Carros</a>
                     </div>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="ofertas.html">Ofertas</a></li>
@@ -70,9 +70,9 @@
                         Cuenta
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="login.html">Iniciar Sesion</a>
-                        <a class="dropdown-item" href="registro.html">Registrarse</a>
-                        <a class="dropdown-item" href="comentario.html">Comentario</a>
+                        <a class="dropdown-item" href="{{ route('login') }}">Iniciar Sesion</a>
+                        <a class="dropdown-item" href="{{ route('registros') }}">Registrarse</a>
+                        <a class="dropdown-item" href="{{ route('comentarios') }}">Comentario</a>
                         <a class="dropdown-item" href="ediccion_eliminacion_usuario.html">Administrador</a>
                     </div>
                 </li>

@@ -2,6 +2,7 @@
 @section('titulo1')
 {{ 'Acción' }}
 @section('seccion')
+    <link rel="stylesheet" href="{{ asset('CSS/accion.css') }}">
     <div class="container mt-3">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">

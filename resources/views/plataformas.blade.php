@@ -1,7 +1,9 @@
 @extends('plantilla')
 @section('titulo1')
 {{ 'Plataformas' }}
-@section('seccion')    <div class="container mt-3">
+@section('seccion')    
+<link rel="stylesheet" href="{{ asset('CSS/accion.css') }}">
+<div class="container mt-3">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item  active" aria-current="page"><a href="index.html">Home</a></li>

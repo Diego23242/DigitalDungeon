@@ -2,6 +2,7 @@
 @section('titulo1')
 {{ 'Terror' }}
 @section('seccion')
+<link rel="stylesheet" href="{{ asset('CSS/accion.css') }}">
         <div class="container">
             <h1 class="title">Terror</h1>
             <div class="row">

@@ -1,5 +1,6 @@
 @extends('plantilla')
 @section('seccion')
+<link rel="stylesheet" href="{{ asset('CSS/index.css) }}">
     <div class="container mt-3">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
