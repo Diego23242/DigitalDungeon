@@ -3,7 +3,8 @@
     <div class="container mt-5">
         <div class="form-container">
           <h2 class="mb-4">Inicio de sesion</h2>
-          <form>
+          <form method="POST" action="{{ route('login') }}">
+            @csrf
             <div class="mb-3">
               <label for="email" class="form-label">Correo Electrónico</label>
               <input type="email" class="form-control" id="email" name="email" required>
